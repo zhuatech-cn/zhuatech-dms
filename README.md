@@ -57,6 +57,10 @@ npm run dev:demo
 
 完整环境使用 `cp .env.example .env && docker compose up --build`，启动前务必替换数据库密码和 `JWT_SECRET`。
 
+### 新增：文档保留与处置决策
+
+新增 `POST /api/admin/retention-decision`。接口结合文档年龄、保留期限、法律保全、待审批、业务引用和个人信息属性，输出 `KEEP`、`HOLD`、`REVIEW` 或 `DISPOSE`，同时给出剩余保留天数、逾期天数和处置控制要求。
+
 ### 后续可扩展
 
 Office 在线预览、全文检索、OCR、CAD 图纸、动态水印、国密电子签章、内容脱敏、保管期限、知识图谱、企业微信/钉钉审批与 ERP/PLM/QMS 集成。
