@@ -76,3 +76,7 @@ Office 在线预览、全文检索、OCR、CAD 图纸、动态水印、国密电
 | ![微信咨询 A](docs/images/zhuatech-wechat-consulting.png) | ![微信咨询 B](docs/images/zhuatech-wechat-consulting-2.png) |
 
 关键词：DMS 开源源码、企业文档管理、受控文件、知识库、版本管理、文档审批、Java DMS、Vue DMS、知华科技。
+
+## 文档外发风险门禁
+
+新增 `POST /api/dms/insights/external-share-risk`，根据文档密级、外部收件人数、外链期限、水印、口令、下载权限和个人信息计算风险分，输出 `ALLOW / REVIEW / BLOCK`。高风险外发会被阻止，并提示最小化、缩短有效期和增强访问控制。
