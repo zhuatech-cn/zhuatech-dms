@@ -1,4 +1,4 @@
-/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. */
+/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. · https://www.zhuatech.cn/ */
 package cn.zhuatech.dms.controller;
 import cn.zhuatech.dms.common.ApiResponse; import cn.zhuatech.dms.dto.AuthDto.*; import cn.zhuatech.dms.repository.UserRepository; import cn.zhuatech.dms.security.JwtService; import cn.zhuatech.dms.service.CurrentUserService; import jakarta.validation.Valid; import org.springframework.security.authentication.*; import org.springframework.web.bind.annotation.*;
 @RestController @RequestMapping("/api/auth") public class AuthController {

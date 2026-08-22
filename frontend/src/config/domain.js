@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'DMS',systemName:'企业文档管理系统',englishName:'DOCUMENT MANAGEMENT SYSTEM',theme:{primary:'#355f82',dark:'#1f2c38',accent:'#b6813f'},workspace:'集团知识中心 / 文控运营',fieldWorkspace:'研发技术文档库',period:'2026-08-01 · 周六',liveText:'归档与备份服务正常',fieldContextLabel:'当前文档库',fieldContext:'协作空间 · 受控访问',fieldUser:'许文博',fieldRole:'文档协作者',adminUser:'周妍',adminRole:'文控主管',
  adminTitle:'文档治理中心',adminBreadcrumb:'知识治理 / 文档态势',adminSubtitle:'掌握受控文件、审批、版本、分发与到期评审。',exportAction:'导出文控清单',createAction:'新建受控文档',chartTitle:'受控文档发布趋势',chartSubtitle:'本月累计发布 / 目标基线',chartLabels:['第1周','第2周','第3周','第4周','05日','10日','15日','20日','今日'],loadTitle:'文档库容量',loadSubtitle:'有效文件占治理计划',recordsTitle:'待办文档',recordsSubtitle:'按审批期限与影响范围排序',issueTitle:'治理风险',issueSubtitle:'版本、权限和归档异常',

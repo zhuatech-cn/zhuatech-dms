@@ -1,4 +1,4 @@
-/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. */
+/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. · https://www.zhuatech.cn/ */
 package cn.zhuatech.dms.service;
 import cn.zhuatech.dms.common.BusinessException; import cn.zhuatech.dms.dto.DmsDto.*; import cn.zhuatech.dms.model.*; import cn.zhuatech.dms.repository.*; import org.springframework.stereotype.Service; import org.springframework.transaction.annotation.Transactional; import java.util.*;
 @Service @Transactional(readOnly=true) public class DmsService {
