@@ -1,5 +1,7 @@
 # 知华 DMS 社区源码版
 
+[简体中文](README.md) | [English](README.en.md)
+
 ## 企业文件很多，可信版本只能有一个
 
 ZhuaTech DMS 是上海如静知华信息科技有限公司（知华科技）发布的企业文档管理系统，用版本、审批、权限、水印和归档规则管理受控知识。官网：[https://www.zhuatech.cn/](https://www.zhuatech.cn/)。
